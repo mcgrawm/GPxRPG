@@ -1,4 +1,4 @@
-General-Purpose Extensible Roleplaying Game (GPxRPG)
+# General-Purpose Extensible Roleplaying Game (GPxRPG)
 
 Client: Client Mike (CM)
 Developer: Developer Mike (DM)
