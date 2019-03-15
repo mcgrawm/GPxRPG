@@ -1,4 +1,4 @@
-#Project: General Purpose eXtensible Role-Playing Game#
+#Project: General Purpose eXtensible Role-Playing Game
 
 Well Hello, World!
 
