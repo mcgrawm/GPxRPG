@@ -1,7 +1,7 @@
 # General-Purpose Extensible Roleplaying Game (GPxRPG)
 
-Client: Client Mike (CM)
-Developer: Developer Mike (DM)
+*Client*: Client Mike (CM) 
+*Developer*: Developer Mike (DM)
 
 ![Image of GPxRPG character concept sketch](./img/concept_01.jpg)
 
