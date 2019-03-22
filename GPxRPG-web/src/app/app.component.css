@@ -1,0 +1,10 @@
+.header {
+    background-color: black;
+    color: white;
+}
+
+.bookArea {
+    background-color: red;
+    color: white;
+    height: 600px;
+}
