@@ -1,0 +1,7 @@
+.pageViewRoot {
+    padding: 4px;
+    background-color: blue;
+    color: black;
+    height: 100%;
+    width: 450px;
+}

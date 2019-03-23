@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GPxRPG';
-  version = .1;
-  statusNote = 'Nothing to see yet... just big empty boxes.';
+  version = .2;
+  statusNote = 'More UI boilerplate, two hard-coded HeroSheetComponents in PageView containers';
 }

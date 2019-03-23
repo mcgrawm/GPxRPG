@@ -1,3 +1,7 @@
-.header {
+.bookRoot {
     background-color: red;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    width: 960px;
+    height: 540px;
 }
