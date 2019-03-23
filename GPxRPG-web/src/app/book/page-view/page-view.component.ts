@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-view',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageViewComponent implements OnInit {
 
+  @Input() page: number;    // This pageView's page number - it will be assigned by Book
+  @Input() content: object; // the JSON object containing this pageView's content (for now, only hero JSON)
+
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
