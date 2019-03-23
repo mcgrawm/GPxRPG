@@ -1,0 +1,12 @@
+{
+    "heroes" : [
+        {
+            "name": "MeeMooLah",
+            "qualities": ["Curious", "Quick", "Nervous", "Kind"]
+        },
+        {
+            "name": "BinVamZib",
+            "qualities": ["Strong", "Loud", "Sleepy"]
+        }
+    ]
+}
