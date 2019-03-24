@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GPxRPG';
-  version = .3;
-  statusNote = 'Dummy data propagating down from BookService > BookComponent > PageView > HeroSheet ';
+  version = .4;
+  statusNote = 'Real data coming from github via BookService > BookComponent > PageView > HeroSheet';
 }

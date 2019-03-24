@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Hero } from 'src/app/model/Hero.model';
 
 @Component({
   selector: 'app-hero-sheet',
@@ -8,6 +9,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeroSheetComponent implements OnInit {
 
   @Input() hero: object;
+
+  getName() {
+    return this.hero.name;
+  }
 
   constructor() { }
 

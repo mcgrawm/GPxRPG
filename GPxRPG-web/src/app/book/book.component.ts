@@ -20,11 +20,17 @@ export class BookComponent implements OnInit {
     this.pageView0.page = this.currentPage;
     this.pageView1.page = this.currentPage + 1;
 
-    this.bookService.loadData();  // tell book service to load the book data.
+    // Subscribe to the bookService's loadData Observable, which should return an array of hero objects. 
+    // Set the pageViews' content (for now, to the 1st and 2nd hero in the stack) once this data is returned.
+    this.bookService.loadData().subscribe(
+      (data) => {
+          this.bookService.heroes = data.heroes;
+          console.log(this.bookService.heroes);
+          this.pageView0.content = this.bookService.heroes[0];
+          this.pageView1.content = this.bookService.heroes[1];
+      }
+    );
 
-    // We should wait for an async completion or error response from the service, but for now, just pass the data to the pageViews
-    this.pageView0.content = this.bookService.heroes[0];
-    this.pageView1.content = this.bookService.heroes[1];
 
    }
 
