@@ -32561,6 +32561,11 @@ DM: The randomization of styling and content will be dealt with in sprint 2. Nex
 I am jumping ahead in my Angular course a bit to the Observables, Forms, Pipes, and HTTP Requests sections today. This should inform me as to how best to hook up the data loading cycle. I'll likely then point to a separate public repo that will contain only the BookData JSON and image sources, to emulate pulling data from Git-based data stores that are unconnected to the project's source repo. [CM: the objective here is to permit users to use the Book engine to view their own content, share, branch, and merge content with other users and user groups.]\par
 
 \pard\par
+DM (4:30pm): GitHub raw urls work, that's pretty cool. I'm using HttpClient in the BookService to retrieve them via an observable, which BookComponent subscribes to. In the subscribe handler, the data is passed to the pageViews.\par
+\par
+Problem: a file's raw url on GitHub does not update to point to the file's head revision for several minutes, making the live-update function using GitHub a non-starter. I will leave as-is for now and possiibly connect Firebase as the backend instead.\par
+\par
+However, need to make more progress on displaying more hero data. Also, the Book's page forward / back navigation should be working by sprint 1, and tracking / updating the current page correctly. \par
 {\object\objemb{\*\objclass PBrush}\objw2835\objh2835{\*\objdata 
 01050000
 02000000
