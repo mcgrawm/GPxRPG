@@ -1,12 +1,24 @@
 {
     "heroes" : [
         {
-            "name": "Brombo",
-            "qualities": ["Curious", "Quick", "Nervous", "Kind"]
+            "name": "Wizmither",
+            "qualities": ["Curious", "Nervous", "Kind", "Elder"]
         },
         {
-            "name": "Vizwither",
+            "name": "Laine Brightshod",
+            "qualities": ["Noble", "True", "Cursed"]
+        },
+        {
+            "name": "Brom Bones",
             "qualities": ["Strong", "Loud", "Sleepy"]
+        },
+        {
+            "name": "Doris Hollows",
+            "qualities": ["Succinct", "Kind", "Young", "Poor"]
+        },
+        {
+            "name": "Skerfnaggle McCrumph",
+            "qualities": ["Fuzzy", "Feral", "Clever", "Quick"]
         }
     ]
 }
