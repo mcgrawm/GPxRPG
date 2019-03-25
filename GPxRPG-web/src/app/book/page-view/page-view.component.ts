@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-page-view',
@@ -7,13 +7,29 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PageViewComponent implements OnInit {
 
-  @Input() page: number;    // This pageView's page number - it will be assigned by Book
-  @Input() content: object; // the JSON object containing this pageView's content (for now, only hero JSON)
+
+  navBtnLabel: string;
+  navBtnDirection: number;     // what direction does the page's nav button go? back (-1) or forward (1)?
+
+  page: number;       // This pageView's page number - it will be assigned by Book
+  content: object;    // the JSON object containing this pageView's content (for now, only hero JSON)
+  navBtnEnabled: boolean;
+  displayContent: boolean;
+
+  @Output() pageChanged = new EventEmitter<number>();
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
 
+  setPage(page: number, navBtnEnabled: boolean, displayContent: boolean, content: object ) {
+    this.page = page;
+    this.navBtnEnabled = navBtnEnabled;
+    this.displayContent = displayContent;
+    this.content = content;
+  }
+  onPageChanged() {
+    this.pageChanged.emit(this.navBtnDirection);
   }
 
 }

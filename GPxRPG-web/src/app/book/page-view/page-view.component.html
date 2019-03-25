@@ -1,6 +1,7 @@
 <div class="pageViewRoot">
   <!-- for now, each pageView just contains a heroSheet -->
-  <app-hero-sheet [hero]=content></app-hero-sheet>
+  <app-hero-sheet *ngIf="displayContent" [hero]=content></app-hero-sheet>
   <label>{{ page }}</label>
+  <button class="btn btn-primary" *ngIf="navBtnEnabled" (click)="onPageChanged()"> {{ navBtnLabel}}</button>
 </div>
 

@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GPxRPG';
-  version = .4;
-  statusNote = 'Real data coming from github via BookService > BookComponent > PageView > HeroSheet';
+  version = .5;
+  statusNote = 'Page Navigation 90% complete (meaning it still is not working, but almost';
 }

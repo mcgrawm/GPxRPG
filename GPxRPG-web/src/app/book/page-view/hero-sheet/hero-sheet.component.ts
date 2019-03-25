@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Hero } from 'src/app/model/Hero.model';
 
 @Component({
   selector: 'app-hero-sheet',
