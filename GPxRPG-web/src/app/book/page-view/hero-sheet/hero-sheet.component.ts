@@ -10,7 +10,8 @@ export class HeroSheetComponent implements OnInit {
   @Input() hero: object;
 
   getName() {
-    return this.hero.name;
+// tslint:disable-next-line: no-string-literal
+    return this.hero['name'];
   }
 
   constructor() { }
