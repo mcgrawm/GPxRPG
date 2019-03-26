@@ -1,7 +1,7 @@
 {
     "heroes" : [
         {
-            "name": "Wizmither the Aged",
+            "name": "Wizmither the Aged!",
             "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "imgTrim": "blue",
             "qualities": ["Curious", "Nervous", "Kind", "Elder", "Wealthy"]
