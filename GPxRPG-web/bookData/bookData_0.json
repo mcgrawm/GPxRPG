@@ -1,28 +1,28 @@
 {
     "heroes" : [
         {
-            "name": "Wizmither",
+            "name": "Wizmither the Aged",
             "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "imgTrim": "blue",
-            "qualities": ["Curious", "Nervous", "Kind", "Elder"]
+            "qualities": ["Curious", "Nervous", "Kind", "Elder", "Wealthy"]
         },
         {
             "name": "Laine Brightshod",
             "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero02.png",
             "imgTrim": "white",
-            "qualities": ["Noble", "True", "Cursed"]
+            "qualities": ["Noble", "True", "Cursed"] 
         },
         {
             "name": "Brom Bones",
             "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero03.png",
             "imgTrim": "brown",
-            "qualities": ["Strong", "Loud", "Sleepy"]
+            "qualities": ["Strong", "Cautious", "Sleepy", "Concerned"]
         },
         {
             "name": "Doris Hollows",
             "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero04.png",
             "imgTrim": "black",
-            "qualities": ["Succinct", "Kind", "Young", "Poor"]
+            "qualities": ["Succinct", "Kind", "Bright", "Poor"]
         },
         {
             "name": "Skerfnaggle McCrumph",
