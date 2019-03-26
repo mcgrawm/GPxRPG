@@ -2,22 +2,27 @@
     "heroes" : [
         {
             "name": "Wizmither",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "qualities": ["Curious", "Nervous", "Kind", "Elder"]
         },
         {
             "name": "Laine Brightshod",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "qualities": ["Noble", "True", "Cursed"]
         },
         {
             "name": "Brom Bones",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "qualities": ["Strong", "Loud", "Sleepy"]
         },
         {
             "name": "Doris Hollows",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "qualities": ["Succinct", "Kind", "Young", "Poor"]
         },
         {
             "name": "Skerfnaggle McCrumph",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
             "qualities": ["Fuzzy", "Feral", "Clever", "Quick"]
         }
     ]
