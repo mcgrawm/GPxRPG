@@ -1,3 +1,36 @@
-<div class="heroSheetRoot">
-  <label *ngIf="hero" [innerText]="getName()"></label>
+<div *ngIf="hero" class="container-fluid d-flex h-100 flex-column heroSheetRoot"  >
+
+  <div class="row justify-content-center" >
+      <div class="col">
+        <span class="label label-default nameLabel" 
+        [innerText]="getName()"></span>  
+      </div>
+  </div>
+
+  <div class="row justify-content-center" >
+      <div class="col">
+         <p> </p>
+      </div>
+  </div>
+
+  <div class="row justify-content-center" >
+      <div class="col imageBG" >
+          <img [src]="getImgURL()" class="mx-auto portrait">
+      </div>
+  </div>
+
+  <div class="row justify-content-center" >
+      <div class="col">
+         <p> </p>
+      </div>
+  </div>
+
+  <div class="row justify-content-center flex-grow-1">
+      <div class="col">
+          <span class="label label-default qualitiesLabel "
+          [innerText]="getQualities()"></span>
+      </div>
+  </div>
+
+  
 </div>

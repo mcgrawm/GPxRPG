@@ -1,6 +1,33 @@
 .heroSheetRoot {
-    background-color:white;
-    color: black;
-    width: 100%;
+    background-color:rgb(228, 224, 200);
+}
+
+.nameLabel {
+    text-align:center; 
+    display: block; 
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.imageBG {
+    background-color:rgba(0, 0, 0, 0.01); 
+    align-content: center; 
+    width:100%;
+}
+
+.portrait {
+    align-content: center;
+    padding: 6px; 
+    display:block;
+    border:1px solid rgba(0,0,0,.8);
+    background-color:yellow;
+}
+
+.qualitiesLabel {
+    text-align:center; 
+    display: block; 
+    font-size: 125%;
+    font-style: italic;
     height: 100%;
+    vertical-align: middle;
 }

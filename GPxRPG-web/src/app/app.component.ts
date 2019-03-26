@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GPxRPG';
-  version = .6;
-  statusNote = 'Page navigation complete - next up: more page content!';
+  version = .7;
+  statusNote = 'Added some basic layout and additional hero qualities';
 }
