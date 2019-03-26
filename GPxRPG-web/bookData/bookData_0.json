@@ -8,25 +8,25 @@
         },
         {
             "name": "Laine Brightshod",
-            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero02.png",
             "imgTrim": "white",
             "qualities": ["Noble", "True", "Cursed"]
         },
         {
             "name": "Brom Bones",
-            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero03.png",
             "imgTrim": "brown",
             "qualities": ["Strong", "Loud", "Sleepy"]
         },
         {
             "name": "Doris Hollows",
-            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero04.png",
             "imgTrim": "black",
             "qualities": ["Succinct", "Kind", "Young", "Poor"]
         },
         {
             "name": "Skerfnaggle McCrumph",
-            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero01.png",
+            "imgURL": "https://raw.githubusercontent.com/mcgrawm/GPxRPG/master/GPxRPG-web/bookData/img/hero05.png",
             "imgTrim": "orange",
             "qualities": ["Fuzzy", "Feral", "Clever", "Quick"]
         }
